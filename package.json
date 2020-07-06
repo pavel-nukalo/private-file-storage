@@ -1,0 +1,32 @@
+{
+  "name": "private-file-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "nodemon --ignore './client/' server/app.js"
+  },
+  "author": "Pavel Nukalo",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "express-validator": "^6.6.0",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "path": "^0.12.7",
+    "promise-mysql": "^4.1.3",
+    "util": "^0.12.3",
+    "uuid": "^8.2.0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "http": {
+    "hostname": "localhost",
+    "port": 3203
+  },
+  "mysql": {
+    "host": "",
+    "user": "",
+    "password": "",
+    "database": ""
+  },
+  "filesDirectory": "/home/n/Desktop/files",
+  "jwt": {
+    "secret": "jwt-secret",
+    "expiresIn": "10m"
+  },
+  "bcrypt": {
+    "saltRounds": 10
+  }
+}
